@@ -1,0 +1,102 @@
+body {
+    background-image: url(../pictures/background.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    animation: Opacity infinite 20s 0s;
+    display: flex;
+    flex-direction: column;
+    place-content: center;
+
+}
+
+.games {
+    align-self: start;
+    align-self: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 100px;
+    align-items: center;
+    place-content: center;
+}
+
+.games div {
+    width: 23vw;
+    height: 42vh;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background: cover;
+}
+
+.games div:hover {
+    animation: OAS 3s ease-in-out 0s;
+    box-shadow: rgb(59, 59, 59) 0 0 10px 10px;
+
+    h1 {
+        display: block;
+        text-align: center;
+        font-size: 70px;
+    }
+}
+
+.ourGame {
+    background-image: url(../pictures/after.jpg);
+    display: flex;
+    flex-direction: column;
+    place-content: center;
+}
+
+a {
+    text-decoration: none;
+}
+
+h1 {
+    display: none;
+    color: white;
+    align-self: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.div1 {
+    background-image: url(../pictures/1.jpg);
+}
+
+.div2 {
+    background-image: url(../pictures/2.jpg);
+}
+
+.div3 {
+    background-image: url(../pictures/4.jpg);
+}
+
+.div4 {
+    background-image: url(../pictures/3.jpg);
+}
+
+.div5 {
+    background-image: url(../pictures/5.jpg);
+}
+
+@keyframes OAS {
+    0% {
+        scale: 100%;
+    }
+
+    50% {
+        scale: 120%;
+    }
+
+    100% {
+        scale: 100%;
+    }
+}
+
+@keyframes Opacity {
+    0% {
+        opacity: 50%;
+    }
+
+    100% {
+        scale: 70%;
+    }
+}
+

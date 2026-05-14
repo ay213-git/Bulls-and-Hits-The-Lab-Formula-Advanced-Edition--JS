@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script defer src="../js/login.js"></script>
+    <style>
+        .register {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+            align-items: center;
+
+        }
+
+        .register input {
+            width: 20vw;
+            height: 5vh;
+
+
+        }
+    </style>
+</head>
+
+<body>
+    <div class="register">
+        <input class="name" type="text" placeholder="Your Name">
+        <input class="Password" type="password" placeholder="Your Password">
+        <input class="Confirm_Password" type="password" placeholder="Confirm Password">
+        <button class="log_in" onclick="login()">התחבר</button>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,7 @@
+# קבצי הגדרות של VS Code
+.vscode/
+
+# קבצי מערכת זמניים
+Thumbs.db
+.DS_Store
+
