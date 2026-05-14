@@ -1,4 +1,4 @@
-Bulls and Hits: The Lab Formula (Advanced Edition)
+Hitting ball game: The Lab Formula (Advanced Edition)
 A sophisticated and visually immersive version of the classic "Bulls and Cows" logic game, set in a scientific laboratory environment. This project was built using Vanilla JavaScript with a focus on interactive UI and engaging user experience.
 
 Project Overview
